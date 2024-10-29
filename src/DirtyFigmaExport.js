@@ -70,7 +70,7 @@ export function Underlay() {
           alignItems: "flex-end",
           justifyContent: "center",
         }}>
-        <p className="full" style={{ whiteSpace: "nowrap", flex: "1 1 0%", fontSize: 12, lineHeight: "1.5em", color: "black" }}>
+        {/* <p className="full" style={{ whiteSpace: "nowrap", flex: "1 1 0%", fontSize: 12, lineHeight: "1.5em", color: "black" }}>
           <b>Wonders of Antiquity</b>
           <br />
         </p>
@@ -89,7 +89,7 @@ export function Underlay() {
             whiteSpace: "nowrap",
           }}>
           The Code Ninja
-        </p>
+        </p> */}
         <div style={{ width: 10 }} />
         <p className="full" style={{ flex: "1 1 0%", fontSize: 12, lineHeight: "1em", textAlign: "right", color: "black" }}></p>
       </div>
