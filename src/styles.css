@@ -13,7 +13,7 @@ body,
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background: linear-gradient(180deg, #00f4ff 0%, #f6f6f6 80%);
+  background: linear-gradient(180deg, #a6a6ff 9%, #00f4ff 43%, #f6f6f6 80%);
 }
 
 body {
