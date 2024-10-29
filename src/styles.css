@@ -37,12 +37,28 @@ a {
   color: black;
   text-decoration: none; /* no underline */
 }
+
+.full {
+  position: absolute;
+  bottom: 140px;
+  right: 0px;
+}
+
 .full p {
   font-size: 250px;
 }
-
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 750px) {
   .full p {
     font-size: 125px;
+  }
+}
+
+@media screen and (max-height: 800px) {
+  .full {
+    bottom: 20px;
+    left: 30px;
+  }
+  .full p {
+    font-size: 100px;
   }
 }

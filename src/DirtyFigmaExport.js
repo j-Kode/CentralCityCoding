@@ -112,9 +112,6 @@ export function CentralCityName() {
     <div
       className="full"
       style={{
-        position: "absolute",
-        bottom: 140,
-        right: 0,
         fontFamily: "'Antonio', sans-serif",
         width: "100%",
         flex: "1 1 0%",
