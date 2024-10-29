@@ -20,23 +20,24 @@ export function Underlay() {
             fontFamily: "'Antonio', sans-serif",
             flex: "1 1 0%",
             height: 30,
-            fontSize: 30,
+            fontSize: 40,
             fontWeight: "700",
             lineHeight: "30px",
             color: "black",
             letterSpacing: -2,
           }}>
-          POIMANDRES
+          Contact:
         </p>
         <div style={{ flex: "1 1 0%", display: "flex", gap: "2em" }}></div>
         <p style={{ flex: "1 1 0%", height: 30, fontSize: 30, lineHeight: "30px", textAlign: "right", color: "black" }}>⎑</p>
       </div>
-      <div style={{ height: 60 }} />
+      <div style={{ height: 40 }} />
       <div style={{ width: "100%", padding: 0, display: "inline-flex", flexDirection: "row", alignItems: "flex-start", justifyContent: "center" }}>
-        <p style={{ flex: "1 1 0%", height: "100%", fontSize: 12, lineHeight: "1.5em", color: "black" }}>
-          <b>Stones, Metals and Gems</b>
-          <br />
-          A Universal Deity
+        <p style={{ flex: "1 1 0%", height: "100%", fontSize: 20, lineHeight: "1.5em", color: "black" }}>
+          <b>
+            <a href="mailto:jeff@thecode.ninja">jeff@thecode.ninja</a>
+          </b>
+
           <br />
           <b>—</b>
         </p>
@@ -87,7 +88,6 @@ export function Underlay() {
         <p className="full" style={{ whiteSpace: "nowrap", flex: "1 1 0%", fontSize: 12, lineHeight: "1.5em", color: "black" }}>
           <b>Wonders of Antiquity</b>
           <br />
-          Pythagorean Mathematics
         </p>
         <div style={{ width: 10 }} />
         <p
@@ -103,7 +103,7 @@ export function Underlay() {
             letterSpacing: -0.5,
             whiteSpace: "nowrap",
           }}>
-          THE SUMMIT OF THE MANY
+          The Code Ninja
         </p>
         <div style={{ width: 10 }} />
         <p className="full" style={{ flex: "1 1 0%", fontSize: 12, lineHeight: "1em", textAlign: "right", color: "black" }}></p>
@@ -115,8 +115,8 @@ export function Underlay() {
 export function Overlay() {
   return (
     <div style={{ position: "absolute", bottom: 40, right: 40 }}>
-      <p style={{ flex: "1 1 0%", fontSize: 12, lineHeight: "1em", textAlign: "right", color: "black" }}>
-        <a href="http://pmnd.rs/">pmnd.rs</a> <a href="https://github.com/pmndrs">git</a> <a href="https://codesandbox.io/s/zxpv7">csb</a>
+      <p style={{ flex: "1 1 0%", fontSize: 24, lineHeight: "1em", textAlign: "right", color: "black" }}>
+        <a href="https://github.com/j-Kode">git</a>
       </p>
     </div>
   )
