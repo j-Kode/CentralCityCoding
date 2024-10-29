@@ -37,10 +37,12 @@ a {
   color: black;
   text-decoration: none; /* no underline */
 }
+.full p {
+  font-size: 250px;
+}
 
 @media screen and (max-width: 568px) {
-  .full {
-    visibility: hidden;
-    display: none;
+  .full p {
+    font-size: 125px;
   }
 }

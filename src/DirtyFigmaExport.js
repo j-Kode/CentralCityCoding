@@ -57,22 +57,7 @@ export function Underlay() {
         </p>
       </div>
       <div style={{ height: 10 }} />
-      <div
-        className="full"
-        style={{
-          fontFamily: "'Antonio', sans-serif",
-          width: "100%",
-          flex: "1 1 0%",
-          padding: 0,
-          display: "inline-flex",
-          flexDirection: "row",
-          alignItems: "flex-end",
-          justifyContent: "center",
-        }}>
-        <p style={{ flex: "1 1 0%", fontSize: 250, lineHeight: "1em", color: "black", margin: 0, letterSpacing: -10 }}>Central City</p>
-        <div style={{ width: 10 }} />
-        <p style={{ flex: "1 1 0%", fontSize: 250, lineHeight: "100%", textAlign: "right", color: "black", margin: 0, letterSpacing: -10 }}>Coding</p>
-      </div>
+
       <div style={{ height: 60 }} />
       <div
         style={{
@@ -118,6 +103,30 @@ export function Overlay() {
       <p style={{ flex: "1 1 0%", fontSize: 24, lineHeight: "1em", textAlign: "right", color: "black" }}>
         <a href="https://github.com/j-Kode">git</a>
       </p>
+    </div>
+  )
+}
+
+export function CentralCityName() {
+  return (
+    <div
+      className="full"
+      style={{
+        position: "absolute",
+        bottom: 140,
+        right: 0,
+        fontFamily: "'Antonio', sans-serif",
+        width: "100%",
+        flex: "1 1 0%",
+        padding: 0,
+        display: "inline-flex",
+        flexDirection: "row",
+        alignItems: "flex-end",
+        justifyContent: "center",
+      }}>
+      <p style={{ flex: "1 1 0%", lineHeight: "1em", color: "black", margin: 0, letterSpacing: -10 }}>Central City Coding</p>
+      <div style={{ width: 10 }} />
+      <p style={{ flex: "1 1 0%", fontSize: 250, lineHeight: "100%", textAlign: "right", color: "black", margin: 0, letterSpacing: -10 }}></p>
     </div>
   )
 }
