@@ -72,20 +72,22 @@ export const App = () => (
 // https://twitter.com/lusionltd/status/1701534187545636964
 // https://lusion.co
 
-const accents = ["#ff9e00", "#9d4edd"]
+const orangeAccents = ["#ff1b1c", "#b8d14b", "#ff9e00"]
+const purpleAccents = ["#785589", "#9d4edd", "#893168"]
+const darkAccents = ["#221e22", "#212d40", "#31263e"]
 const shuffle = (accent = 0) => [
-  { color: "#ff6d00", roughness: 0.1 },
-  { color: "#ff6d00", roughness: 0.1 },
-  { color: "#ff6d00", roughness: 0.1 },
-  { color: "#240046", roughness: 0.1 },
-  { color: "#240046", roughness: 0 },
-  { color: "#240046", roughness: 0.1 },
-  { color: accents[accent], roughness: 0.1, accent: true },
-  { color: accents[accent], roughness: 0.1, accent: true },
-  { color: accents[accent], roughness: 0.1, accent: true },
+  { color: orangeAccents[accent], roughness: 0.1, accent: true },
+  { color: orangeAccents[accent], roughness: 0.1, accent: true },
+  { color: orangeAccents[accent], roughness: 0.1, accent: true },
+  { color: purpleAccents[accent], roughness: 0.1 },
+  { color: purpleAccents[accent], roughness: 0 },
+  { color: purpleAccents[accent], roughness: 0.1 },
+  { color: darkAccents[accent], roughness: 0.1, accent: true },
+  { color: darkAccents[accent], roughness: 0.1, accent: true },
+  { color: darkAccents[accent], roughness: 0.1, accent: true },
 ]
 function Scene(props) {
-  const [accent, click] = useReducer((state) => ++state % accents.length, 0)
+  const [accent, click] = useReducer((state) => ++state % darkAccents.length, 0)
   const connectors = useMemo(() => shuffle(accent), [accent])
   return (
     <Canvas onClick={click} shadows dpr={[1, 1.5]} gl={{ antialias: false }} camera={{ position: [0, 0, 15], fov: 17.5, near: 1, far: 20 }} {...props}>

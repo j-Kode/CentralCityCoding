@@ -120,6 +120,7 @@ export function CentralCityName() {
         flexDirection: "row",
         alignItems: "flex-end",
         justifyContent: "center",
+        textShadow: "-3px -3px 17px #fff, 3px 3px 17px #ccc",
       }}>
       <p style={{ flex: "1 1 0%", lineHeight: "1em", color: "black", margin: 0, letterSpacing: -10 }}>Central City Coding</p>
       <div style={{ width: 10 }} />
